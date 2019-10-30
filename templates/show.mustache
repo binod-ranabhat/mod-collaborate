@@ -18,7 +18,7 @@
 {{!
     @template mod_collaborate/view
 
-    Moodle renders a simple view page
+    Template for the submissions page with instructions and submission form
 
     Classes required for JS:
     * none
@@ -29,16 +29,21 @@
     Example context (json):
         {
          "heading": "My heading",
-         "body": "My html body"
+         "user": "Richard",
+         "body": "My html body",
         }
 }}
-<div class="card">
-  <div class="card-body">
-    <h2 class="card-title">{{heading}}</h2>
+<div class = "container">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">{{heading}}</h2>
+      <h3>{{user}}</h3>
       {{{body}}}
-  </div>
-  <div class = "container">
-    <a href = "{{url_a}}" class="btn btn-primary">{{# str }} studenta, mod_collaborate {{/ str }}</a>
-    <a href = "{{url_b}}" class="btn btn-primary">{{# str }} studentb, mod_collaborate {{/ str }}</a>
+      <p>
+        <a href = "{{url_view}}" class="btn btn-primary">
+          {{# str }} returnview, mod_collaborate {{/ str }}
+        </a>
+      </p>
+    </div>
   </div>
 </div>

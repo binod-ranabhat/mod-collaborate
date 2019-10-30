@@ -119,3 +119,37 @@ My instance: stdClass Object
     [modname] => collaborate
 )
 
+Module insatce: stdClass Object
+(
+    [id] => 1
+    [course] => 2
+    [name] => Brand New Collab
+    [intro] => <p>This is Description</p><p><img src="@@PLUGINFILE@@/20121025_064457.jpg" alt="desc" width="201" height="73" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [introformat] => 1
+    [instructiona] => 
+    [instructionaformat] => 0
+    [instructionb] => 
+    [instructionbformat] => 0
+    [title] => New Collab after Db update
+    [timecreated] => 1572416712
+    [timemodified] => 0
+    [grade] => 100
+)
+
+Module insatce: stdClass Object
+(
+    [id] => 1
+    [course] => 2
+    [name] => Brand New Collab
+    [intro] => <p>This is Description</p><p><img src="@@PLUGINFILE@@/20121025_064457.jpg" alt="desc" width="201" height="73" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [introformat] => 1
+    [instructiona] => 
+    [instructionaformat] => 0
+    [instructionb] => 
+    [instructionbformat] => 0
+    [title] => New Collab after Db update
+    [timecreated] => 1572416712
+    [timemodified] => 0
+    [grade] => 100
+)
+
